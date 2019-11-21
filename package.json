@@ -1,0 +1,48 @@
+{
+  "name": "nodejsplgx",
+  "version": "0.1.2",
+  "description": "nsp ",
+  "main": "lib/index.js",
+  "files": [
+    "babel.js",
+    "webpack.js",
+    "lib/**"
+  ],
+  "typings": "types/index.d.ts",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Peroluo/nodejsp.git"
+  },
+  "keywords": [
+    "nsp",
+    "react-ssr",
+    "react"
+  ],
+  "author": "luoguoxiong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Peroluo/nodejsp/issues"
+  },
+  "homepage": "https://github.com/Peroluo/nodejsp#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/plugin-proposal-class-properties": "^7.7.0",
+    "@babel/plugin-proposal-decorators": "^7.7.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-transform-object-assign": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "react-router-dom": "*"
+  }
+}
